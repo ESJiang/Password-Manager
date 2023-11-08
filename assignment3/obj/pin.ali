@@ -1,0 +1,36 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=core2
+A -mmacosx-version-min=10.15.0
+A -fPIC
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U pin%b			pin.adb			0c5e1d96 NE OO PK IU
+Z system.exp_int%s	s-expint.adb		s-expint.ali
+
+U pin%s			pin.ads			553c8633 EE NE OO PK IU
+
+D pin.ads		20200529151129 553c8633 pin%s
+D pin.adb		20200529151129 59629ba5 pin%b
+D system.ads		20190518041255 085b6ffb system%s
+D s-expint.ads		20190518041256 192336fc system.exp_int%s
+G a e
+G c Z s b [from_string pin 3 13 none]
+X 1 pin.ads
+1K9*PIN 7E9 8l5 8e8 2|1b14 19l5 19t8
+2I9*PIN<integer> 3r47 7c9 2|2r47 17r14
+3V13*From_String{2I9} 3>25 2|2b13 18l8 18t19
+3a25 S{string} 4r14 5r30 5r41 5r57 2|2b25 6r16 8r31 11r74
+5i25 I{integer} 5r43 5r59
+X 2 pin.adb
+3i7 Result{natural} 11r102 13m13 13r23 14m13 14r23 17r18
+4i7 Count{natural} 11r64 11r86 11r117 12m13 12r22
+6i11 I{integer} 8r33 11r72
+8e13 Ch{character} 11r36 11r50 14r47
+

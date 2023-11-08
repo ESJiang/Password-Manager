@@ -1,0 +1,61 @@
+{
+  "spark": [
+    {
+      "name": "MyCommandLine",
+      "sloc": [
+        {
+          "file": "mycommandline.ads",
+          "line": 1
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "MyCommandLine.Argument_Count",
+      "sloc": [
+        {
+          "file": "mycommandline.ads",
+          "line": 3
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "MyCommandLine.Command_Name",
+      "sloc": [
+        {
+          "file": "mycommandline.ads",
+          "line": 5
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "MyCommandLine.Argument",
+      "sloc": [
+        {
+          "file": "mycommandline.ads",
+          "line": 7
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 2.43000002228655E-04,
+    "globals (basic)": 3.36400000378489E-03,
+    "globals/properties (advanced)": 3.32399993203580E-03,
+    "flow analysis": 4.40000003436580E-04,
+    "codepeer results": 7.99999997980194E-06,
+    "init_why_sections": 6.31999981123954E-04,
+    "translation of standard": 4.14500012993813E-03,
+    "translation of compilation unit": 1.07600004412234E-03,
+    "proof": 9.99999997475243E-07
+  }
+}

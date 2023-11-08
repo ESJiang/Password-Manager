@@ -1,0 +1,206 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=core2
+A -mmacosx-version-min=10.15.0
+A -fPIC
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U main%b		main.adb		23ae6e4d NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W manager%s		manager.adb		manager.ali
+W mycommandline%s	mycommandline.adb	mycommandline.ali
+W mystring%s		mystring.adb		mystring.ali
+W mystringtokeniser%s	mystringtokeniser.adb	mystringtokeniser.ali
+W passworddatabase%s	passworddatabase.adb	passworddatabase.ali
+W pin%s			pin.adb			pin.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-charac.ads		20190518041255 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041255 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20190518041254 61e5e089 ada.containers%s
+D a-cforma.ads		20190518041254 4dc2c126 ada.containers.formal_ordered_maps%s
+D a-cofuba.ads		20190518041254 24945d4e ada.containers.functional_base%s
+D a-cofuma.ads		20190518041256 61667f51 ada.containers.functional_maps%s
+D a-cofuma.adb		20190518041254 8c0e325d ada.containers.functional_maps%b
+D a-cofuve.ads		20190518041256 0334cb05 ada.containers.functional_vectors%s
+D a-cofuve.adb		20190518041256 5633ee38 ada.containers.functional_vectors%b
+D a-conhel.ads		20190518041254 20298884 ada.containers.helpers%s
+D a-crbltr.ads		20190518041255 c3e90a86 ada.containers.red_black_trees%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041255 bf4f806b ada.finalization%s
+D a-inteio.ads		20190518041256 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041254 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D main.adb		20200529151128 0e782723 main%b
+D manager.ads		20200529151128 60a3e05c manager%s
+D mycommandline.ads	20200529151128 dbf720e9 mycommandline%s
+D mystring.ads		20200529151128 ce083c8f mystring%s
+D mystring.adb		20200529151128 8198c1c4 mystring%b
+D mystringtokeniser.ads	20200529151128 9bc8f6ad mystringtokeniser%s
+D passworddatabase.ads	20200529151129 cec19903 passworddatabase%s
+D pin.ads		20200529151129 553c8633 pin%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-atocou.ads		20190518041256 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20190518041255 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041254 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041254 aedef97e system.stream_attributes%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 53 11 none]
+G r s database [main standard 53 11 none] [databaseIP passworddatabase 54 9 none]
+G r i none [main standard 53 11 none] [mystring standard 3 9 none]
+G r c none [main standard 53 11 none] [argument_count mycommandline 3 13 none]
+G r c none [main standard 53 11 none] [argument mycommandline 7 13 none]
+G r c none [main standard 53 11 none] [lock manager 22 15 none]
+G r c none [main standard 53 11 none] [init passworddatabase 18 14 none]
+G r c none [main standard 53 11 none] [tokenise mystringtokeniser 14 14 none]
+G r c none [main standard 53 11 none] [rem_password manager 12 15 none]
+G r c none [main standard 53 11 none] [get manager 10 15 none]
+G r c none [main standard 53 11 none] [put manager 15 15 none]
+G r c none [main standard 53 11 none] [unlock manager 18 15 none]
+X 1 ada.ads
+16K9*Ada 20e8 24|50r6 50r23 51r6 51r31
+X 7 a-cofuma.ads
+320V14 "="=322:48{boolean} 6|43i19
+X 12 a-crbltr.ads
+67R12 Tree_Type
+X 15 a-inteio.ads
+18K13*Integer_Text_IO[20|46] 24|51w10 51r35
+X 19 a-textio.ads
+57K13*Text_IO 727e16 24|50w10 50r27
+465U14*Put 24|61s9 64s9 84s13 88s17 105s17 124s17 131s17 138s17 142s13
+X 24 main.adb
+53U11*Main 53b11 146l5 146t9
+54r5 D{30|16R9} 79m10 122m25 122r25 129r25 136m34 136r34
+55K13 Lines[27|3] 56r10 81r9 82r18 86r15 86r31 87r17 87r33 91r21 91r37 91r93
+. 91r109 91r181 91r197 91r253 91r269 93r24 93r40 93r96 93r112 93r186 93r202
+. 93r258 93r274 95r24 95r40 95r96 95r112 95r186 95r202 95r258 95r274 97r24
+. 97r40 97r96 97r112 97r183 97r199 97r255 97r271 100r31 100r47 103r15 103r31
+. 104r17 104r33 108r21 108r37 108r93 108r109 108r181 108r197 108r253 108r269
+. 110r24 110r40 110r96 110r112 110r186 110r202 110r258 110r274 112r24 112r40
+. 112r96 112r112 112r186 112r202 112r258 112r274 114r24 114r40 114r96 114r112
+. 114r183 114r199 114r255 114r271 117r29 117r45 120r15 120r31 122r30 122r46
+. 122r106 122r122 127r15 127r31 129r30 129r46 134r15 134r31 136r39 136r55
+56r5 S{27|4R9[55]} 81m24 82r34 86r47 87r49 91r53 91r125 91r213 91r285 93r56
+. 93r128 93r218 93r290 95r56 95r128 95r218 95r290 97r56 97r128 97r215 97r287
+. 100r63 103r47 104r49 108r53 108r125 108r213 108r285 110r56 110r128 110r218
+. 110r290 112r56 112r128 112r218 112r290 114r56 114r128 114r215 114r287 117r61
+. 120r47 122r62 122r138 127r47 129r62 134r47 136r71
+57a5 T{29|8A9} 82m37 82r37 86r49 86r60 86r71 87r51 87r62 87r73 91r55 91r66
+. 91r77 91r127 91r138 91r149 91r215 91r226 91r237 91r287 91r298 91r309 93r58
+. 93r69 93r80 93r130 93r141 93r152 93r220 93r231 93r242 93r292 93r303 93r314
+. 95r58 95r69 95r80 95r130 95r141 95r152 95r220 95r231 95r242 95r292 95r303
+. 95r314 97r58 97r69 97r80 97r130 97r141 97r152 97r217 97r228 97r239 97r289
+. 97r300 97r311 100r65 100r76 100r87 103r49 103r60 103r71 104r51 104r62 104r73
+. 108r55 108r66 108r77 108r127 108r138 108r149 108r215 108r226 108r237 108r287
+. 108r298 108r309 110r58 110r69 110r80 110r130 110r141 110r152 110r220 110r231
+. 110r242 110r292 110r303 110r314 112r58 112r69 112r80 112r130 112r141 112r152
+. 112r220 112r231 112r242 112r292 112r303 112r314 114r58 114r69 114r80 114r130
+. 114r141 114r152 114r217 114r228 114r239 114r289 114r300 114r311 117r63
+. 117r74 117r85 120r49 120r60 120r71 122r64 122r75 122r86 122r140 122r151
+. 122r162 127r49 127r60 127r71 129r64 129r75 129r86 134r49 134r60 134r71
+. 136r73 136r84 136r95
+58i5 NumTokens{natural} 82m39 83r13 83r30 86r100 103r98 121r16 128r16 135r16
+X 25 manager.ads
+5K9*manager 24|49w6 49r19 25|26e12
+10U15*get 24|129s17
+10r19 DB{30|16R9} 24|129r21
+10a34 s{string} 24|129r27
+12U15*rem_password 24|136s17
+12r28 DB{30|16R9} 24|136r30
+12a50 s{string} 24|136r36
+15U15*put 24|122s17
+15r19 DB{30|16R9} 24|122r21
+15a41 s{string} 24|122r27
+15a53 s1{string} 24|122r102
+18U15*unlock 24|100s21
+18a22 p{string} 24|100r28
+22U15*lock 24|76s13 117s21
+22a20 p{string} 24|76r18 117r26
+X 26 mycommandline.ads
+1K9*MyCommandLine 24|45w6 45r25 26|10e18
+3V13*Argument_Count{natural} 24|60s8
+7V13*Argument{string} 24|63s12 67s13 67s25 67s53 67s65 69s16 69s28 69s58
+. 69s70 71s16 71s28 71s58 71s70 73s16 73s28 73s55 73s67 76s21
+X 27 mystring.ads
+2i4 Max_MyString_Length{positive} 24|55r35
+3k9*MyString 24|46w6 55r26 27|35e13
+4R9 MyString 24|56r16[55]
+5V13 To_String{string} 24|82s24[55] 86s21[55] 87s23[55] 91s27[55] 91s99[55]
+. 91s187[55] 91s259[55] 93s30[55] 93s102[55] 93s192[55] 93s264[55] 95s30[55]
+. 95s102[55] 95s192[55] 95s264[55] 97s30[55] 97s102[55] 97s189[55] 97s261[55]
+. 100s37[55] 103s21[55] 104s23[55] 108s27[55] 108s99[55] 108s187[55] 108s259[55]
+. 110s30[55] 110s102[55] 110s192[55] 110s264[55] 112s30[55] 112s102[55] 112s192[55]
+. 112s264[55] 114s30[55] 114s102[55] 114s189[55] 114s261[55] 117s35[55] 120s21[55]
+. 122s36[55] 122s112[55] 127s21[55] 129s36[55] 134s21[55] 136s45[55]
+18V13 Substring{4R9[24|55]} 24|86s37[55] 87s39[55] 91s43[55] 91s115[55] 91s203[55]
+. 91s275[55] 93s46[55] 93s118[55] 93s208[55] 93s280[55] 95s46[55] 95s118[55]
+. 95s208[55] 95s280[55] 97s46[55] 97s118[55] 97s205[55] 97s277[55] 100s53[55]
+. 103s37[55] 104s39[55] 108s43[55] 108s115[55] 108s203[55] 108s275[55] 110s46[55]
+. 110s118[55] 110s208[55] 110s280[55] 112s46[55] 112s118[55] 112s208[55]
+. 112s280[55] 114s46[55] 114s118[55] 114s205[55] 114s277[55] 117s51[55] 120s37[55]
+. 122s52[55] 122s128[55] 127s37[55] 129s52[55] 134s37[55] 136s61[55]
+23U14 Get_Line 24|81s15[55]
+X 29 mystringtokeniser.ads
+2K9*MyStringTokeniser 24|47w6 47r29 57r9 29|34e22
+4i7*Start{positive} 24|57m59 86r54 86r65 87r56 87r67 91r60 91r71 91r132 91r143
+. 91r220 91r231 91r292 91r303 93r63 93r74 93r135 93r146 93r225 93r236 93r297
+. 93r308 95r63 95r74 95r135 95r146 95r225 95r236 95r297 95r308 97r63 97r74
+. 97r135 97r146 97r222 97r233 97r294 97r305 100r70 100r81 103r54 103r65 104r56
+. 104r67 108r60 108r71 108r132 108r143 108r220 108r231 108r292 108r303 110r63
+. 110r74 110r135 110r146 110r225 110r236 110r297 110r308 112r63 112r74 112r135
+. 112r146 112r225 112r236 112r297 112r308 114r63 114r74 114r135 114r146 114r222
+. 114r233 114r294 114r305 117r68 117r79 120r54 120r65 122r69 122r80 122r145
+. 122r156 127r54 127r65 129r69 129r80 134r54 134r65 136r78 136r89
+5i7*Length{natural} 24|57m71 86r76 87r78 91r82 91r154 91r242 91r314 93r85
+. 93r157 93r247 93r319 95r85 95r157 95r247 95r319 97r85 97r157 97r244 97r316
+. 100r92 103r76 104r78 108r82 108r154 108r242 108r314 110r85 110r157 110r247
+. 110r319 112r85 112r157 112r247 112r319 114r85 114r157 114r244 114r316 117r90
+. 120r76 122r91 122r167 127r76 129r91 134r76 136r100
+8A9*TokenArray(3R9)<integer> 24|57r27
+14U14*Tokenise 24|82s9
+X 30 passworddatabase.ads
+5K9*PasswordDatabase 24|44w6 44r28 54r9 30|83e21
+16R9*Database 24|54r26 30|56e14
+18U14*Init 24|79s5
+X 31 pin.ads
+1K9*PIN 24|48w6 48r15 31|8e8
+

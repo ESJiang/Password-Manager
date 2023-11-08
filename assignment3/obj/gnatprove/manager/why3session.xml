@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="6">
+<prover id="0" name="CVC4" version="1.6-gnatprove" timelimit="1" steplimit="0" memlimit="1000"/>
+<prover id="1" name="CVC4_CE" version="1.6-gnatprove" timelimit="1" steplimit="0" memlimit="1000"/>
+<file>
+<path name=".."/>
+<path name="manager.mlw"/>
+<theory name="Manager__package_def" proved="true">
+ <goal name="VC def" expl="VC for def" proved="true">
+ <transf name="split_goal_wp_conj" proved="true" >
+  <goal name="VC def.0" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="78"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="227"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="227"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Manager__get__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="unknown" steps="67"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="94"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="16"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Manager__rem_password__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="16"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="unknown" steps="67"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="94"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Manager__put__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="21"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="16"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Manager__unlock__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.15" expl="precondition">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.11" expl="precondition">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="98"/></proof>
+  <proof prover="1"><result status="unknown" steps="129"/></proof>
+  </goal>
+  <goal name="VC def.19" expl="precondition">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.18" expl="postcondition">
+  </goal>
+  <goal name="VC def.14" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.29" expl="postcondition">
+  </goal>
+  <goal name="VC def.30" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="unknown" steps="117"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="140"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.16" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="93"/></proof>
+  </goal>
+  <goal name="VC def.8" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="93"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="95"/></proof>
+  </goal>
+  <goal name="VC def.26" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="103"/></proof>
+  </goal>
+  <goal name="VC def.23" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.20" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.17" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="assertion">
+  <proof prover="0"><result status="unknown" steps="98"/></proof>
+  <proof prover="1"><result status="unknown" steps="98"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="assertion">
+  <proof prover="0"><result status="unknown" steps="109"/></proof>
+  <proof prover="1"><result status="unknown" steps="95"/></proof>
+  </goal>
+  <goal name="VC def.27" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.24" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="103"/></proof>
+  </goal>
+  <goal name="VC def.21" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Manager__lock__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="assertion">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+</file>
+</why3session>

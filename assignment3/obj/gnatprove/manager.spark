@@ -1,0 +1,359 @@
+{
+  "spark": [
+    {
+      "name": "manager",
+      "sloc": [
+        {
+          "file": "manager.ads",
+          "line": 5
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "manager.get",
+      "sloc": [
+        {
+          "file": "manager.ads",
+          "line": 10
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "manager.rem_password",
+      "sloc": [
+        {
+          "file": "manager.ads",
+          "line": 13
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "manager.put",
+      "sloc": [
+        {
+          "file": "manager.ads",
+          "line": 17
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "manager.unlock",
+      "sloc": [
+        {
+          "file": "manager.ads",
+          "line": 21
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "manager.lock",
+      "sloc": [
+        {
+          "file": "manager.ads",
+          "line": 25
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+    {
+      "file": "manager.ads",
+      "line": 7,
+      "col": 23,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "manager",
+        "sloc": [
+          {
+            "file": "manager.ads",
+            "line": 5
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 227,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 227,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 78,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "manager.ads",
+      "check_line": 7,
+      "check_col": 23,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 3,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "manager.ads",
+      "line": 11,
+      "col": 17,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "manager.get",
+        "sloc": [
+          {
+            "file": "manager.ads",
+            "line": 10
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 16,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "manager.ads",
+      "check_line": 11,
+      "check_col": 17,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "manager.ads",
+      "line": 14,
+      "col": 17,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "manager.rem_password",
+        "sloc": [
+          {
+            "file": "manager.ads",
+            "line": 13
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 16,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "manager.ads",
+      "check_line": 14,
+      "check_col": 17,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "manager.ads",
+      "line": 18,
+      "col": 17,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "manager.put",
+        "sloc": [
+          {
+            "file": "manager.ads",
+            "line": 17
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 16,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "manager.ads",
+      "check_line": 18,
+      "check_col": 17,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "manager.ads",
+      "line": 18,
+      "col": 47,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "manager.put",
+        "sloc": [
+          {
+            "file": "manager.ads",
+            "line": 17
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 21,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "manager.ads",
+      "check_line": 18,
+      "check_col": 47,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "manager.get",
+          "sloc": [
+            {
+              "file": "manager.ads",
+              "line": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "PIN.From_String",
+            "sloc": [
+              {
+                "file": "pin.ads",
+                "line": 3
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "PIN.From_String",
+            "sloc": [
+              {
+                "file": "pin.ads",
+                "line": 3
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "manager",
+          "sloc": [
+            {
+              "file": "manager.ads",
+              "line": 5
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 2.39500007592142E-03,
+    "globals (basic)": 6.21300004422665E-03,
+    "globals/properties (advanced)": 1.41089996322989E-02,
+    "flow analysis": 1.88400002662092E-03,
+    "codepeer results": 6.00000021222513E-06,
+    "init_why_sections": 6.29000016488135E-04,
+    "translation of standard": 3.65499989129603E-03,
+    "translation of compilation unit": 2.29620002210140E-02,
+    "proof": 6.02882981300354E-01
+  }
+}

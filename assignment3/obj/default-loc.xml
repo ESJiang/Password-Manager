@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/Users/jiangfangwei/Downloads/submission/assignment3/default.gpr</vfs_file>
+    <file_marker column=" 17" line=" 132" >
+      <vfs_project>/Users/jiangfangwei/Downloads/submission/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/jiangfangwei/Downloads/submission/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/jiangfangwei/Downloads/submission/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/jiangfangwei/Downloads/submission/assignment3/manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12" >
+      <vfs_project>/Users/jiangfangwei/Downloads/submission/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/jiangfangwei/Downloads/submission/assignment3/manager.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/jiangfangwei/Downloads/submission/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/jiangfangwei/Downloads/submission/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/Users/jiangfangwei/Downloads/submission/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/jiangfangwei/Downloads/submission/assignment3/manager.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_file>
+    <file_marker column=" 13" line=" 26">
+      <vfs_project >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/manager.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 21">
+      <vfs_project >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/mystring.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/mystring.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/mycommandline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 31">
+      <vfs_project >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/obj/gnatprove/gnatprove.out</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 53">
+      <vfs_project >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >/Users/jiangfangwei/his-assignment-3/assignment3/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/his-assignment-3/assignment3/main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >/Users/jiangfangwei/Desktop/submission/default.gpr</vfs_file>
+    <file_marker column=" 1" line=" 6">
+      <vfs_project  />
+      <vfs_file >/Users/jiangfangwei/Desktop/submission/default.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >/Users/jiangfangwei/Desktop/submission/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/Desktop/submission/main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >/Users/jiangfangwei/Downloads/assignment3-2/default.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >/Users/jiangfangwei/Downloads/assignment3-2/default.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 3">
+      <vfs_project  />
+      <vfs_file >/Users/jiangfangwei/Downloads/assignment3-2/default.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6">
+      <vfs_project  />
+      <vfs_file >/Users/jiangfangwei/Downloads/assignment3-2/default.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/Users/jiangfangwei/Downloads/assignment3-2/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/Downloads/assignment3-2/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/Users/jiangfangwei/Downloads/assignment3-2/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/Downloads/assignment3-2/mycommandline.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/Users/jiangfangwei/Downloads/assignment3-2/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/Downloads/assignment3-2/main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 20" line=" 29">
+      <vfs_project >/Users/jiangfangwei/Downloads/assignment3-2/default.gpr</vfs_project>
+      <vfs_file >/Users/jiangfangwei/Downloads/assignment3-2/main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
